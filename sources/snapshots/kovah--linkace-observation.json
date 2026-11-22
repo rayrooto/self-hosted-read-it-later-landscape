@@ -1,0 +1,38 @@
+{
+  "repository": "Kovah/LinkAce",
+  "checked_at": "2026-11-21T21:15:02.431896+08:00",
+  "revision": "ebdcb38ea40b578c3678603bb2eb1096d77cb534",
+  "branch": "2.x",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Kovah/LinkAce.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/2.x\tHEAD\nebdcb38ea40b578c3678603bb2eb1096d77cb534\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/README.md",
+      "final_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/README.md",
+      "path": "sources/snapshots/kovah--linkace-readme.txt",
+      "sha256": "1dfaa0605fe8a32e7bdbcd128b6cd3c385df97e9302d96293da767f08458f53b",
+      "http_status": 200,
+      "line_count": 115,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/LICENSE.md",
+      "path": "sources/snapshots/kovah--linkace-license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

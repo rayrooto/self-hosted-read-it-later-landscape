@@ -1,0 +1,1268 @@
+{
+  "repository": "self-hosted-read-it-later-landscape",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Linkwarden",
+      "repository": "linkwarden/linkwarden",
+      "url": "https://github.com/linkwarden/linkwarden",
+      "clone_url": "https://github.com/linkwarden/linkwarden.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:46.843650+08:00",
+      "version_or_commit": "24adcc146ba356632859a1e8adb4bffae2874d11",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/README.md",
+          "final_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/README.md",
+          "path": "sources/snapshots/linkwarden--linkwarden-readme.txt",
+          "sha256": "2813dd16022b0e23f9f2f19cbf216be22b201cb9a089cd3d38184dc7a62c7939",
+          "http_status": 200,
+          "line_count": 152,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/LICENSE.md",
+          "path": "sources/snapshots/linkwarden--linkwarden-license.txt",
+          "sha256": "db52e3daad9260a1cc638efaf3f6b7a6bdead236365586a60078a9a287613037",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/linkwarden/linkwarden.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n24adcc146ba356632859a1e8adb4bffae2874d11\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "linkwarden--linkwarden-axis-1",
+          "field": "decision_axis_1",
+          "statement": "In addition to preservation, Linkwarden provides a user-friendly reading and annotation experience that blends the simplicity of a \u201cread-it-later\u201d tool with the reliability of a web archive. Whether y\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/README.md",
+          "version_or_commit": "24adcc146ba356632859a1e8adb4bffae2874d11",
+          "checked_at": "2026-11-21T21:14:46.843650+08:00",
+          "snapshot_path": "sources/snapshots/linkwarden--linkwarden-readme.txt",
+          "line_start": 34,
+          "line_end": 34,
+          "upstream_excerpt": "In addition to preservation, Linkwarden provides a user-friendly reading and annotation experience that blends the simplicity of a \u201cread-it-later\u201d tool with the reliability of a web archive. Whether you\u2019re highlighting key ideas, jotting down thoughts, or revisiting content long after it\u2019s disappeared from the web, Linkwarden keeps your knowledge accessible and organized.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "linkwarden--linkwarden-axis-2",
+          "field": "decision_axis_2",
+          "statement": "In addition to preservation, Linkwarden provides a user-friendly reading and annotation experience that blends the simplicity of a \u201cread-it-later\u201d tool with the reliability of a web archive. Whether y\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/README.md",
+          "version_or_commit": "24adcc146ba356632859a1e8adb4bffae2874d11",
+          "checked_at": "2026-11-21T21:14:46.843650+08:00",
+          "snapshot_path": "sources/snapshots/linkwarden--linkwarden-readme.txt",
+          "line_start": 34,
+          "line_end": 34,
+          "upstream_excerpt": "In addition to preservation, Linkwarden provides a user-friendly reading and annotation experience that blends the simplicity of a \u201cread-it-later\u201d tool with the reliability of a web archive. Whether you\u2019re highlighting key ideas, jotting down thoughts, or revisiting content long after it\u2019s disappeared from the web, Linkwarden keeps your knowledge accessible and organized.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "linkwarden--linkwarden-axis-3",
+          "field": "decision_axis_3",
+          "statement": "> [!IMPORTANT] > To use the app you\u2019ll first need a Linkwarden account.",
+          "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/README.md",
+          "version_or_commit": "24adcc146ba356632859a1e8adb4bffae2874d11",
+          "checked_at": "2026-11-21T21:14:46.843650+08:00",
+          "snapshot_path": "sources/snapshots/linkwarden--linkwarden-readme.txt",
+          "line_start": 72,
+          "line_end": 73,
+          "upstream_excerpt": "> [!IMPORTANT]\n> To use the app you\u2019ll first need a Linkwarden account.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "linkwarden--linkwarden-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/LICENSE.md",
+          "version_or_commit": "24adcc146ba356632859a1e8adb4bffae2874d11",
+          "checked_at": "2026-11-21T21:14:46.843650+08:00",
+          "snapshot_path": "sources/snapshots/linkwarden--linkwarden-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\nCopyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\nEveryone is permitted to copy and distribute verbatim copies\nof this license document, but changing it is not allowed.\n\n                            Preamble\n\nThe GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/linkwarden--linkwarden-observation.json"
+    },
+    {
+      "name": "Karakeep",
+      "repository": "karakeep-app/karakeep",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "clone_url": "https://github.com/karakeep-app/karakeep.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:47.932493+08:00",
+      "version_or_commit": "337161a5f9ef9a3d40d6229aba353d625897bb6d",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/README.md",
+          "final_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/README.md",
+          "path": "sources/snapshots/karakeep-app--karakeep-readme.txt",
+          "sha256": "68e769d2d94115a9db7280cf99e61c753e7dd8f856a373d8e64c154da4d7778f",
+          "http_status": 200,
+          "line_count": 127,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/LICENSE",
+          "path": "sources/snapshots/karakeep-app--karakeep-license.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/karakeep-app/karakeep.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n337161a5f9ef9a3d40d6229aba353d625897bb6d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "karakeep-app--karakeep-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Karakeep (previously Hoarder) is a self-hostable bookmark-everything app with a touch of AI for the data hoarders out there.",
+          "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/README.md",
+          "version_or_commit": "337161a5f9ef9a3d40d6229aba353d625897bb6d",
+          "checked_at": "2026-11-21T21:14:47.932493+08:00",
+          "snapshot_path": "sources/snapshots/karakeep-app--karakeep-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "Karakeep (previously Hoarder) is a self-hostable bookmark-everything app with a touch of AI for the data hoarders out there.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "karakeep-app--karakeep-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- LLM-based automatic tagging and summarization. With supports for local models using ollama!",
+          "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/README.md",
+          "version_or_commit": "337161a5f9ef9a3d40d6229aba353d625897bb6d",
+          "checked_at": "2026-11-21T21:14:47.932493+08:00",
+          "snapshot_path": "sources/snapshots/karakeep-app--karakeep-readme.txt",
+          "line_start": 26,
+          "line_end": 26,
+          "upstream_excerpt": "- LLM-based automatic tagging and summarization. With supports for local models using ollama!",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "karakeep-app--karakeep-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Bookmark importers from Chrome, Pocket, Linkwarden, Omnivore, Tab Session Manager.",
+          "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/README.md",
+          "version_or_commit": "337161a5f9ef9a3d40d6229aba353d625897bb6d",
+          "checked_at": "2026-11-21T21:14:47.932493+08:00",
+          "snapshot_path": "sources/snapshots/karakeep-app--karakeep-readme.txt",
+          "line_start": 43,
+          "line_end": 43,
+          "upstream_excerpt": "- Bookmark importers from Chrome, Pocket, Linkwarden, Omnivore, Tab Session Manager.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "karakeep-app--karakeep-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/LICENSE",
+          "version_or_commit": "337161a5f9ef9a3d40d6229aba353d625897bb6d",
+          "checked_at": "2026-11-21T21:14:47.932493+08:00",
+          "snapshot_path": "sources/snapshots/karakeep-app--karakeep-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/karakeep-app--karakeep-observation.json"
+    },
+    {
+      "name": "wallabag",
+      "repository": "wallabag/wallabag",
+      "url": "https://github.com/wallabag/wallabag",
+      "clone_url": "https://github.com/wallabag/wallabag.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:48.607815+08:00",
+      "version_or_commit": "995ca0078f0dd0ad25af60c4ab39b40195e15f49",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/README.md",
+          "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/README.md",
+          "path": "sources/snapshots/wallabag--wallabag-readme.txt",
+          "sha256": "0dd89f0f2c9e197ae8ef1b5d9f650b3f11384eb951c1d9be38c724ffdc4df4f8",
+          "http_status": 200,
+          "line_count": 71,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+          "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+          "path": "sources/snapshots/wallabag--wallabag-license.txt",
+          "sha256": "9927812ed1d034e6b6ed0c71160b2bf33ececf980947806ddf73993013669496",
+          "http_status": 200,
+          "line_count": 19,
+          "upstream_filename": "COPYING.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+          "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+          "path": "sources/snapshots/wallabag--wallabag-COPYING.md.txt",
+          "sha256": "9927812ed1d034e6b6ed0c71160b2bf33ececf980947806ddf73993013669496",
+          "http_status": 200,
+          "line_count": 19,
+          "upstream_filename": "COPYING.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+          "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+          "path": "sources/snapshots/wallabag--wallabag-COPYING.md.txt",
+          "sha256": "9927812ed1d034e6b6ed0c71160b2bf33ececf980947806ddf73993013669496",
+          "http_status": 200,
+          "line_count": 19,
+          "upstream_filename": "COPYING.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/wallabag/wallabag.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n995ca0078f0dd0ad25af60c4ab39b40195e15f49\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "wallabag--wallabag-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Click, save and read it when you want. It extracts content so that you won't be distracted by pop-ups and cie.",
+          "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/README.md",
+          "version_or_commit": "995ca0078f0dd0ad25af60c4ab39b40195e15f49",
+          "checked_at": "2026-11-21T21:14:48.607815+08:00",
+          "snapshot_path": "sources/snapshots/wallabag--wallabag-readme.txt",
+          "line_start": 13,
+          "line_end": 13,
+          "upstream_excerpt": "Click, save and read it when you want. It extracts content so that you won't be distracted by pop-ups and cie.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "wallabag--wallabag-axis-3",
+          "field": "decision_axis_3",
+          "statement": "> [!IMPORTANT] > The name of this project is wallabag \u2014 all lowercase, always. Not \"Wallabag\", not \"WallaBag\", not any other variation. Just plain, humble, all-lowercase wallabag \ud83d\ude09",
+          "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/README.md",
+          "version_or_commit": "995ca0078f0dd0ad25af60c4ab39b40195e15f49",
+          "checked_at": "2026-11-21T21:14:48.607815+08:00",
+          "snapshot_path": "sources/snapshots/wallabag--wallabag-readme.txt",
+          "line_start": 3,
+          "line_end": 4,
+          "upstream_excerpt": "> [!IMPORTANT]\n> The name of this project is **wallabag** \u2014 all lowercase, always. Not \"Wallabag\", not \"WallaBag\", not any other variation. Just plain, humble, all-lowercase **wallabag** \ud83d\ude09",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "wallabag--wallabag-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+          "version_or_commit": "995ca0078f0dd0ad25af60c4ab39b40195e15f49",
+          "checked_at": "2026-11-21T21:14:48.607815+08:00",
+          "snapshot_path": "sources/snapshots/wallabag--wallabag-license.txt",
+          "line_start": 11,
+          "line_end": 11,
+          "upstream_excerpt": "copies or substantial portions of the Software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/wallabag--wallabag-observation.json"
+    },
+    {
+      "name": "Readeck",
+      "repository": "readeck/readeck",
+      "url": "https://codeberg.org/readeck/readeck",
+      "clone_url": "https://codeberg.org/readeck/readeck.git",
+      "type": "upstream_codeberg_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:48.765364+08:00",
+      "version_or_commit": "dd31edd071dcf5ca074dc197f3b0161cd262b890",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/README.md",
+          "final_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/README.md",
+          "path": "sources/snapshots/readeck--readeck-readme.txt",
+          "sha256": "f2c561a8b7f0d445d5d22ac225934a7e0e18c524583231e34948bee5c02d0caf",
+          "http_status": 200,
+          "line_count": 194,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/LICENSE",
+          "final_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/LICENSE",
+          "path": "sources/snapshots/readeck--readeck-license.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://codeberg.org/readeck/readeck.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\ndd31edd071dcf5ca074dc197f3b0161cd262b890\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "readeck--readeck-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Move bookmarks to archives or favorites and add as many labels as you want.",
+          "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/README.md",
+          "version_or_commit": "dd31edd071dcf5ca074dc197f3b0161cd262b890",
+          "checked_at": "2026-11-21T21:14:48.765364+08:00",
+          "snapshot_path": "sources/snapshots/readeck--readeck-readme.txt",
+          "line_start": 38,
+          "line_end": 38,
+          "upstream_excerpt": "Move bookmarks to archives or favorites and add as many labels as you want.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "readeck--readeck-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Highlight and annotate the important content of your bookmarks to easily find it later.",
+          "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/README.md",
+          "version_or_commit": "dd31edd071dcf5ca074dc197f3b0161cd262b890",
+          "checked_at": "2026-11-21T21:14:48.765364+08:00",
+          "snapshot_path": "sources/snapshots/readeck--readeck-readme.txt",
+          "line_start": 42,
+          "line_end": 42,
+          "upstream_excerpt": "Highlight and annotate the important content of your bookmarks to easily find it later.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "readeck--readeck-axis-3",
+          "field": "decision_axis_3",
+          "statement": "What's better than reading your collected articles on your e-reader? You can export any article to an e-book file (EPUB). You can even export a collection to a single book!",
+          "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/README.md",
+          "version_or_commit": "dd31edd071dcf5ca074dc197f3b0161cd262b890",
+          "checked_at": "2026-11-21T21:14:48.765364+08:00",
+          "snapshot_path": "sources/snapshots/readeck--readeck-readme.txt",
+          "line_start": 62,
+          "line_end": 62,
+          "upstream_excerpt": "What's better than reading your collected articles on your e-reader? You can export any article to an e-book file (EPUB). You can even export a collection to a single book!",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "readeck--readeck-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/LICENSE",
+          "version_or_commit": "dd31edd071dcf5ca074dc197f3b0161cd262b890",
+          "checked_at": "2026-11-21T21:14:48.765364+08:00",
+          "snapshot_path": "sources/snapshots/readeck--readeck-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/readeck--readeck-observation.json"
+    },
+    {
+      "name": "linkding",
+      "repository": "sissbruecker/linkding",
+      "url": "https://github.com/sissbruecker/linkding",
+      "clone_url": "https://github.com/sissbruecker/linkding.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:54.069741+08:00",
+      "version_or_commit": "27b7303baf41bb28babc610ac8eaa486e1ddfab5",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/README.md",
+          "final_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/README.md",
+          "path": "sources/snapshots/sissbruecker--linkding-readme.txt",
+          "sha256": "ee0d7ad2b5508071b9f36cde500286a90dee41f3251197ff6c81dcfd499c3e8c",
+          "http_status": 200,
+          "line_count": 132,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/LICENSE.txt",
+          "path": "sources/snapshots/sissbruecker--linkding-license.txt",
+          "sha256": "96dfab90f973f8f6faaf7f98e51178bd1acb188b8f80a3060a7c60e483a20699",
+          "http_status": 200,
+          "line_count": 9,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/sissbruecker/linkding.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n27b7303baf41bb28babc610ac8eaa486e1ddfab5\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "sissbruecker--linkding-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Automatically archive websites, either as local HTML file or on Internet Archive",
+          "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/README.md",
+          "version_or_commit": "27b7303baf41bb28babc610ac8eaa486e1ddfab5",
+          "checked_at": "2026-11-21T21:14:54.069741+08:00",
+          "snapshot_path": "sources/snapshots/sissbruecker--linkding-readme.txt",
+          "line_start": 25,
+          "line_end": 25,
+          "upstream_excerpt": "- Automatically archive websites, either as local HTML file or on Internet Archive",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sissbruecker--linkding-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Organize bookmarks with tags",
+          "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/README.md",
+          "version_or_commit": "27b7303baf41bb28babc610ac8eaa486e1ddfab5",
+          "checked_at": "2026-11-21T21:14:54.069741+08:00",
+          "snapshot_path": "sources/snapshots/sissbruecker--linkding-readme.txt",
+          "line_start": 21,
+          "line_end": 21,
+          "upstream_excerpt": "- Organize bookmarks with tags",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sissbruecker--linkding-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Automatically archive websites, either as local HTML file or on Internet Archive - Import and export bookmarks in Netscape HTML format",
+          "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/README.md",
+          "version_or_commit": "27b7303baf41bb28babc610ac8eaa486e1ddfab5",
+          "checked_at": "2026-11-21T21:14:54.069741+08:00",
+          "snapshot_path": "sources/snapshots/sissbruecker--linkding-readme.txt",
+          "line_start": 25,
+          "line_end": 26,
+          "upstream_excerpt": "- Automatically archive websites, either as local HTML file or on Internet Archive\n- Import and export bookmarks in Netscape HTML format",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sissbruecker--linkding-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/LICENSE.txt",
+          "version_or_commit": "27b7303baf41bb28babc610ac8eaa486e1ddfab5",
+          "checked_at": "2026-11-21T21:14:54.069741+08:00",
+          "snapshot_path": "sources/snapshots/sissbruecker--linkding-license.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/sissbruecker--linkding-observation.json"
+    },
+    {
+      "name": "Shiori",
+      "repository": "go-shiori/shiori",
+      "url": "https://github.com/go-shiori/shiori",
+      "clone_url": "https://github.com/go-shiori/shiori.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:54.370421+08:00",
+      "version_or_commit": "aebb4021a56048eed4c8feb325399be5f46e5470",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/README.md",
+          "final_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/README.md",
+          "path": "sources/snapshots/go-shiori--shiori-readme.txt",
+          "sha256": "f7e1e6524b1e4aba3cbe440fd16dc327ce0e48cf80268e6c671b304f53c835bc",
+          "http_status": 200,
+          "line_count": 42,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/LICENSE",
+          "path": "sources/snapshots/go-shiori--shiori-license.txt",
+          "sha256": "710d74ed6b8c6ee1ebdbab7a0539c5412f2a487a1e6fcba9477f7cd7a272372f",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/go-shiori/shiori.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\naebb4021a56048eed4c8feb325399be5f46e5470\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "go-shiori--shiori-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Where possible, by default shiori will parse the readable content and create an offline archive of the webpage.",
+          "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/README.md",
+          "version_or_commit": "aebb4021a56048eed4c8feb325399be5f46e5470",
+          "checked_at": "2026-11-21T21:14:54.370421+08:00",
+          "snapshot_path": "sources/snapshots/go-shiori--shiori-readme.txt",
+          "line_start": 23,
+          "line_end": 23,
+          "upstream_excerpt": "- Where possible, by default `shiori` will parse the readable content and create an offline archive of the webpage.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "go-shiori--shiori-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Shiori is a simple bookmarks manager written in the Go language. Intended as a simple clone of [Pocket][pocket]. You can use it as a command line application or as a web application. This application \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/README.md",
+          "version_or_commit": "aebb4021a56048eed4c8feb325399be5f46e5470",
+          "checked_at": "2026-11-21T21:14:54.370421+08:00",
+          "snapshot_path": "sources/snapshots/go-shiori--shiori-readme.txt",
+          "line_start": 10,
+          "line_end": 10,
+          "upstream_excerpt": "Shiori is a simple bookmarks manager written in the Go language. Intended as a simple clone of [Pocket][pocket]. You can use it as a command line application or as a web application. This application is distributed as a single binary, which means it can be installed and used easily.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "go-shiori--shiori-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Import and export bookmarks from and to Netscape Bookmark file. - Import bookmarks from Pocket.",
+          "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/README.md",
+          "version_or_commit": "aebb4021a56048eed4c8feb325399be5f46e5470",
+          "checked_at": "2026-11-21T21:14:54.370421+08:00",
+          "snapshot_path": "sources/snapshots/go-shiori--shiori-readme.txt",
+          "line_start": 17,
+          "line_end": 18,
+          "upstream_excerpt": "- Import and export bookmarks from and to Netscape Bookmark file.\n- Import bookmarks from Pocket.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "go-shiori--shiori-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/LICENSE",
+          "version_or_commit": "aebb4021a56048eed4c8feb325399be5f46e5470",
+          "checked_at": "2026-11-21T21:14:54.370421+08:00",
+          "snapshot_path": "sources/snapshots/go-shiori--shiori-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2018-present Radhi Fadlillah\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/go-shiori--shiori-observation.json"
+    },
+    {
+      "name": "Shaarli",
+      "repository": "shaarli/Shaarli",
+      "url": "https://github.com/shaarli/Shaarli",
+      "clone_url": "https://github.com/shaarli/Shaarli.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:56.234958+08:00",
+      "version_or_commit": "6ecde7a382de51f5f14bb3978c5405a5665fe860",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/README.md",
+          "final_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/README.md",
+          "path": "sources/snapshots/shaarli--shaarli-readme.txt",
+          "sha256": "52c055d11b7b5c83dbd7b210495a00eef754d62770062ddad1363ba8d0365cd8",
+          "http_status": 200,
+          "line_count": 30,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/COPYING",
+          "final_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/COPYING",
+          "path": "sources/snapshots/shaarli--shaarli-license.txt",
+          "sha256": "8ca23fe8cf3f9dd0c6e325542dc78ee2a50db8cbb3d7323cf85e46b675ec431e",
+          "http_status": 200,
+          "line_count": 792,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/shaarli/Shaarli.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n6ecde7a382de51f5f14bb3978c5405a5665fe860\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "shaarli--shaarli-axis-2",
+          "field": "decision_axis_2",
+          "statement": "The personal, minimalist, super fast, database-free, bookmarking service.",
+          "upstream_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/README.md",
+          "version_or_commit": "6ecde7a382de51f5f14bb3978c5405a5665fe860",
+          "checked_at": "2026-11-21T21:14:56.234958+08:00",
+          "snapshot_path": "sources/snapshots/shaarli--shaarli-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "The personal, minimalist, super fast, database-free, bookmarking service.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "shaarli--shaarli-license",
+          "field": "license_model",
+          "statement": "zlib",
+          "upstream_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/COPYING",
+          "version_or_commit": "6ecde7a382de51f5f14bb3978c5405a5665fe860",
+          "checked_at": "2026-11-21T21:14:56.234958+08:00",
+          "snapshot_path": "sources/snapshots/shaarli--shaarli-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Files: *\nLicense: zlib/libpng\nCopyright: (c) 2011-2015 S\u00e9bastien SAUVAGE <sebsauvage@sebsauvage.net>\n           (c) 2011-2018 The Shaarli Community, see AUTHORS\n\nFiles: assets/vintage/css/reset.css\nLicense: BSD (http://opensource.org/licenses/BSD-3-Clause)\nCopyright: (c) 2010, Yahoo! Inc.\n\nFiles: assets/vintage/img/calendar.png\n       assets/vintage/img/edit_icon.png\n       assets/vintage/img/feed-icon-14x14.png",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/shaarli--shaarli-observation.json"
+    },
+    {
+      "name": "ArchiveBox",
+      "repository": "ArchiveBox/ArchiveBox",
+      "url": "https://github.com/ArchiveBox/ArchiveBox",
+      "clone_url": "https://github.com/ArchiveBox/ArchiveBox.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:57.253196+08:00",
+      "version_or_commit": "c76067d210a619dd1baa9a3f3c6f06f2a64d5a48",
+      "branch_at_observation": "dev",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/README.md",
+          "final_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/README.md",
+          "path": "sources/snapshots/archivebox--archivebox-readme.txt",
+          "sha256": "14ec3c541cad1544672a058b9ea5d624c50ab3f94e99077e5b9b523d647ea52f",
+          "http_status": 200,
+          "line_count": 1568,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/LICENSE",
+          "path": "sources/snapshots/archivebox--archivebox-license.txt",
+          "sha256": "94e19d573d2a152c04409ba6995f8754ec212c56d0cf1796626445046bcbf92a",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/ArchiveBox/ArchiveBox.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/dev\tHEAD\nc76067d210a619dd1baa9a3f3c6f06f2a64d5a48\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "archivebox--archivebox-axis-1",
+          "field": "decision_axis_1",
+          "statement": "ArchiveBox is a self-hosted app that lets you preserve content from websites in a variety of formats.",
+          "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/README.md",
+          "version_or_commit": "c76067d210a619dd1baa9a3f3c6f06f2a64d5a48",
+          "checked_at": "2026-11-21T21:14:57.253196+08:00",
+          "snapshot_path": "sources/snapshots/archivebox--archivebox-readme.txt",
+          "line_start": 17,
+          "line_end": 17,
+          "upstream_excerpt": "**ArchiveBox is a self-hosted app that lets you preserve content from websites in a variety of formats.**",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "archivebox--archivebox-axis-2",
+          "field": "decision_axis_2",
+          "statement": "You can run ArchiveBox as a Docker web app to manage these snapshots, or continue accessing the same collection using the uv-installed CLI, Python API, and SQLite3 APIs. All the ways of using it are e\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/README.md",
+          "version_or_commit": "c76067d210a619dd1baa9a3f3c6f06f2a64d5a48",
+          "checked_at": "2026-11-21T21:14:57.253196+08:00",
+          "snapshot_path": "sources/snapshots/archivebox--archivebox-readme.txt",
+          "line_start": 50,
+          "line_end": 51,
+          "upstream_excerpt": "You can run ArchiveBox as a Docker web app to manage these snapshots, or continue accessing the same collection using the `uv`-installed CLI, Python API, and SQLite3 APIs.\nAll the ways of using it are equivalent, and provide matching features like adding tags, scheduling regular crawls, viewing logs, and more...",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "archivebox--archivebox-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Once installed, you can interact with it through the: Browser Extension, CLI, self-hosted web interface, Python API, or filesystem.",
+          "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/README.md",
+          "version_or_commit": "c76067d210a619dd1baa9a3f3c6f06f2a64d5a48",
+          "checked_at": "2026-11-21T21:14:57.253196+08:00",
+          "snapshot_path": "sources/snapshots/archivebox--archivebox-readme.txt",
+          "line_start": 28,
+          "line_end": 28,
+          "upstream_excerpt": "*Once installed, you can interact with it through the: [Browser Extension](https://github.com/ArchiveBox/archivebox-browser-extension), [CLI](#usage), [self-hosted web interface](https://github.com/ArchiveBox/ArchiveBox/wiki/Publishing-Your-Archive), [Python API](https://github.com/ArchiveBox/ArchiveBox/wiki/Usage#python-shell-usage), or [filesystem](#static-archive-exporting).*",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "archivebox--archivebox-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/LICENSE",
+          "version_or_commit": "c76067d210a619dd1baa9a3f3c6f06f2a64d5a48",
+          "checked_at": "2026-11-21T21:14:57.253196+08:00",
+          "snapshot_path": "sources/snapshots/archivebox--archivebox-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2026 Nick Sweeting\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/archivebox--archivebox-observation.json"
+    },
+    {
+      "name": "LinkAce",
+      "repository": "Kovah/LinkAce",
+      "url": "https://github.com/Kovah/LinkAce",
+      "clone_url": "https://github.com/Kovah/LinkAce.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:02.431896+08:00",
+      "version_or_commit": "ebdcb38ea40b578c3678603bb2eb1096d77cb534",
+      "branch_at_observation": "2.x",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/README.md",
+          "final_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/README.md",
+          "path": "sources/snapshots/kovah--linkace-readme.txt",
+          "sha256": "1dfaa0605fe8a32e7bdbcd128b6cd3c385df97e9302d96293da767f08458f53b",
+          "http_status": 200,
+          "line_count": 115,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/LICENSE.md",
+          "path": "sources/snapshots/kovah--linkace-license.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Kovah/LinkAce.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/2.x\tHEAD\nebdcb38ea40b578c3678603bb2eb1096d77cb534\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "kovah--linkace-axis-1",
+          "field": "decision_axis_1",
+          "statement": "LinkAce ia a powerful, self-hosted solution for managing your personal link archive. Save articles for later reading, bookmark useful tools, and preserve important web content long-term \u2013 all in one p\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/README.md",
+          "version_or_commit": "ebdcb38ea40b578c3678603bb2eb1096d77cb534",
+          "checked_at": "2026-11-21T21:15:02.431896+08:00",
+          "snapshot_path": "sources/snapshots/kovah--linkace-readme.txt",
+          "line_start": 34,
+          "line_end": 34,
+          "upstream_excerpt": "LinkAce ia a powerful, self-hosted solution for managing your personal link archive. Save articles for later reading, bookmark useful tools, and preserve important web content long-term \u2013 all in one place. With a clean, user-friendly interface, you can easily categorize and retrieve your links, and even share collections with friends, family, or coworkers. LinkAce isn't meant to replace your browser bookmarks, but rather to provide you with a robust, personalized database for curating and managing your online discoveries. Whether you're a professional, a researcher or simply an avid internet user, you'll find this tool invaluable for organizing your web resources efficiently and effectively.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "kovah--linkace-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Organize bookmarks with the help of lists and tags. Multi-user support with internal sharing of links, lists or tags.",
+          "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/README.md",
+          "version_or_commit": "ebdcb38ea40b578c3678603bb2eb1096d77cb534",
+          "checked_at": "2026-11-21T21:15:02.431896+08:00",
+          "snapshot_path": "sources/snapshots/kovah--linkace-readme.txt",
+          "line_start": 41,
+          "line_end": 42,
+          "upstream_excerpt": "* Organize bookmarks with the help of lists and tags.\n* Multi-user support with internal sharing of links, lists or tags.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "kovah--linkace-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Import and export of bookmarks from and to HTML.",
+          "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/README.md",
+          "version_or_commit": "ebdcb38ea40b578c3678603bb2eb1096d77cb534",
+          "checked_at": "2026-11-21T21:15:02.431896+08:00",
+          "snapshot_path": "sources/snapshots/kovah--linkace-readme.txt",
+          "line_start": 54,
+          "line_end": 54,
+          "upstream_excerpt": "* Import and export of bookmarks from and to HTML.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "kovah--linkace-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/Kovah/LinkAce/ebdcb38ea40b578c3678603bb2eb1096d77cb534/LICENSE.md",
+          "version_or_commit": "ebdcb38ea40b578c3678603bb2eb1096d77cb534",
+          "checked_at": "2026-11-21T21:15:02.431896+08:00",
+          "snapshot_path": "sources/snapshots/kovah--linkace-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/kovah--linkace-observation.json"
+    },
+    {
+      "name": "Buku",
+      "repository": "jarun/buku",
+      "url": "https://github.com/jarun/buku",
+      "clone_url": "https://github.com/jarun/buku.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:02.540624+08:00",
+      "version_or_commit": "7881fae49651555478b83d254de4609c1810daf2",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/jarun/buku/7881fae49651555478b83d254de4609c1810daf2/README.md",
+          "final_url": "https://raw.githubusercontent.com/jarun/buku/7881fae49651555478b83d254de4609c1810daf2/README.md",
+          "path": "sources/snapshots/jarun--buku-readme.txt",
+          "sha256": "775ba582d6c37291e344f0dbc6d12b5f7f3784bc0b77e2e1df334359cf6e194c",
+          "http_status": 200,
+          "line_count": 647,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/jarun/buku/7881fae49651555478b83d254de4609c1810daf2/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/jarun/buku/7881fae49651555478b83d254de4609c1810daf2/LICENSE",
+          "path": "sources/snapshots/jarun--buku-license.txt",
+          "sha256": "d62f065830aa3739cc031156b9690805c7b2e811b4a178c8b4acd8725d561c94",
+          "http_status": 200,
+          "line_count": 675,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/jarun/buku.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n7881fae49651555478b83d254de4609c1810daf2\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "jarun--buku-axis-1",
+          "field": "decision_axis_1",
+          "statement": "39. Add a bookmark after following all permanent redirects, but only if the server doesn't respond with an error (and there's no network failure)",
+          "upstream_url": "https://raw.githubusercontent.com/jarun/buku/7881fae49651555478b83d254de4609c1810daf2/README.md",
+          "version_or_commit": "7881fae49651555478b83d254de4609c1810daf2",
+          "checked_at": "2026-11-21T21:15:02.540624+08:00",
+          "snapshot_path": "sources/snapshots/jarun--buku-readme.txt",
+          "line_start": 549,
+          "line_end": 549,
+          "upstream_excerpt": "39. Add a bookmark after following all permanent redirects, but only if the server doesn't respond with an error (and there's no network failure)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "jarun--buku-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Import/export bookmarks from/to HTML, XBEL, Markdown, RSS/Atom or Orgfile",
+          "upstream_url": "https://raw.githubusercontent.com/jarun/buku/7881fae49651555478b83d254de4609c1810daf2/README.md",
+          "version_or_commit": "7881fae49651555478b83d254de4609c1810daf2",
+          "checked_at": "2026-11-21T21:15:02.540624+08:00",
+          "snapshot_path": "sources/snapshots/jarun--buku-readme.txt",
+          "line_start": 72,
+          "line_end": 72,
+          "upstream_excerpt": "- Import/export bookmarks from/to HTML, XBEL, Markdown, RSS/Atom or Orgfile",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "jarun--buku-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/jarun/buku/7881fae49651555478b83d254de4609c1810daf2/LICENSE",
+          "version_or_commit": "7881fae49651555478b83d254de4609c1810daf2",
+          "checked_at": "2026-11-21T21:15:02.540624+08:00",
+          "snapshot_path": "sources/snapshots/jarun--buku-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/jarun--buku-observation.json"
+    },
+    {
+      "name": "Espial",
+      "repository": "jonschoning/espial",
+      "url": "https://github.com/jonschoning/espial",
+      "clone_url": "https://github.com/jonschoning/espial.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:02.576756+08:00",
+      "version_or_commit": "27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/README.md",
+          "final_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/README.md",
+          "path": "sources/snapshots/jonschoning--espial-readme.txt",
+          "sha256": "97eeef390e01fec72f3c38152d9d5a1e6d02d05ea340a109f59973dec4bedb6c",
+          "http_status": 200,
+          "line_count": 535,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/LICENSE",
+          "path": "sources/snapshots/jonschoning--espial-license.txt",
+          "sha256": "ad858d53cae05eed9531ecd4c467440803acffe34c69de7b88e03affc5b6a1bd",
+          "http_status": 200,
+          "line_count": 660,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/jonschoning/espial.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "jonschoning--espial-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Espial supports configurable archive backends for saving bookmark snapshots.",
+          "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/README.md",
+          "version_or_commit": "27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6",
+          "checked_at": "2026-11-21T21:15:02.576756+08:00",
+          "snapshot_path": "sources/snapshots/jonschoning--espial-readme.txt",
+          "line_start": 392,
+          "line_end": 392,
+          "upstream_excerpt": "Espial supports configurable archive backends for saving bookmark snapshots.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "jonschoning--espial-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Espial is an open-source, web-based bookmarking server.",
+          "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/README.md",
+          "version_or_commit": "27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6",
+          "checked_at": "2026-11-21T21:15:02.576756+08:00",
+          "snapshot_path": "sources/snapshots/jonschoning--espial-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Espial is an open-source, web-based bookmarking server.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "jonschoning--espial-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Espial also supports file import options (see CLI, or the settings -> Import / Export page in the web UI).",
+          "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/README.md",
+          "version_or_commit": "27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6",
+          "checked_at": "2026-11-21T21:15:02.576756+08:00",
+          "snapshot_path": "sources/snapshots/jonschoning--espial-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "Espial also supports file import options (see [CLI](#cli), or the settings -> Import / Export page in the web UI).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "jonschoning--espial-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/LICENSE",
+          "version_or_commit": "27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6",
+          "checked_at": "2026-11-21T21:15:02.576756+08:00",
+          "snapshot_path": "sources/snapshots/jonschoning--espial-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "### GNU AFFERO GENERAL PUBLIC LICENSE\n\nVersion 3, 19 November 2007\n\nCopyright (C) 2007 Free Software Foundation, Inc.\n<https://fsf.org/>\n\nEveryone is permitted to copy and distribute verbatim copies of this\nlicense document, but changing it is not allowed.\n\n### Preamble\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/jonschoning--espial-observation.json"
+    },
+    {
+      "name": "Slash",
+      "repository": "yourselfhosted/slash",
+      "url": "https://github.com/yourselfhosted/slash",
+      "clone_url": "https://github.com/yourselfhosted/slash.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:05.149366+08:00",
+      "version_or_commit": "e5a4508b797a5fbdd7c633146152b14a5aba9061",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/README.md",
+          "final_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/README.md",
+          "path": "sources/snapshots/yourselfhosted--slash-readme.txt",
+          "sha256": "6f412bb856f815e1a52c873ebbc18dd9d0aadbee124eb1218fb94e7e302b792d",
+          "http_status": 200,
+          "line_count": 44,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/LICENSE",
+          "path": "sources/snapshots/yourselfhosted--slash-license.txt",
+          "sha256": "2560f5f46b095304902d10ab503949eedf900e9d51ace3867cf962fa967f2d79",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/yourselfhosted/slash.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\ne5a4508b797a5fbdd7c633146152b14a5aba9061\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "yourselfhosted--slash-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Slash is an open source, self-hosted platform designed to help you organize, manage, and share your most important links. Easily create customizable, human-readable shortcuts to streamline your link m\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/README.md",
+          "version_or_commit": "e5a4508b797a5fbdd7c633146152b14a5aba9061",
+          "checked_at": "2026-11-21T21:15:05.149366+08:00",
+          "snapshot_path": "sources/snapshots/yourselfhosted--slash-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "**Slash** is an open source, self-hosted platform designed to help you organize, manage, and share your most important links. Easily create customizable, human-readable shortcuts to streamline your link management. Use tags to categorize your links and share them easily with your team or publicly.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "yourselfhosted--slash-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Slash is an open source, self-hosted platform designed to help you organize, manage, and share your most important links. Easily create customizable, human-readable shortcuts to streamline your link m\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/README.md",
+          "version_or_commit": "e5a4508b797a5fbdd7c633146152b14a5aba9061",
+          "checked_at": "2026-11-21T21:15:05.149366+08:00",
+          "snapshot_path": "sources/snapshots/yourselfhosted--slash-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "**Slash** is an open source, self-hosted platform designed to help you organize, manage, and share your most important links. Easily create customizable, human-readable shortcuts to streamline your link management. Use tags to categorize your links and share them easily with your team or publicly.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "yourselfhosted--slash-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/LICENSE",
+          "version_or_commit": "e5a4508b797a5fbdd7c633146152b14a5aba9061",
+          "checked_at": "2026-11-21T21:15:05.149366+08:00",
+          "snapshot_path": "sources/snapshots/yourselfhosted--slash-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/yourselfhosted--slash-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:02.899079+08:00",
+  "review_round": "narrow_remediation"
+}

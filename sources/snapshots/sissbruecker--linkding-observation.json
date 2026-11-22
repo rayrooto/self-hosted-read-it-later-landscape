@@ -1,0 +1,38 @@
+{
+  "repository": "sissbruecker/linkding",
+  "checked_at": "2026-11-21T21:14:54.069741+08:00",
+  "revision": "27b7303baf41bb28babc610ac8eaa486e1ddfab5",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/sissbruecker/linkding.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n27b7303baf41bb28babc610ac8eaa486e1ddfab5\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/README.md",
+      "final_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/README.md",
+      "path": "sources/snapshots/sissbruecker--linkding-readme.txt",
+      "sha256": "ee0d7ad2b5508071b9f36cde500286a90dee41f3251197ff6c81dcfd499c3e8c",
+      "http_status": 200,
+      "line_count": 132,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/sissbruecker/linkding/27b7303baf41bb28babc610ac8eaa486e1ddfab5/LICENSE.txt",
+      "path": "sources/snapshots/sissbruecker--linkding-license.txt",
+      "sha256": "96dfab90f973f8f6faaf7f98e51178bd1acb188b8f80a3060a7c60e483a20699",
+      "http_status": 200,
+      "line_count": 9,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "shaarli/Shaarli",
+  "checked_at": "2026-11-21T21:14:56.234958+08:00",
+  "revision": "6ecde7a382de51f5f14bb3978c5405a5665fe860",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/shaarli/Shaarli.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n6ecde7a382de51f5f14bb3978c5405a5665fe860\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/README.md",
+      "final_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/README.md",
+      "path": "sources/snapshots/shaarli--shaarli-readme.txt",
+      "sha256": "52c055d11b7b5c83dbd7b210495a00eef754d62770062ddad1363ba8d0365cd8",
+      "http_status": 200,
+      "line_count": 30,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/COPYING",
+      "final_url": "https://raw.githubusercontent.com/shaarli/Shaarli/6ecde7a382de51f5f14bb3978c5405a5665fe860/COPYING",
+      "path": "sources/snapshots/shaarli--shaarli-license.txt",
+      "sha256": "8ca23fe8cf3f9dd0c6e325542dc78ee2a50db8cbb3d7323cf85e46b675ec431e",
+      "http_status": 200,
+      "line_count": 792,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

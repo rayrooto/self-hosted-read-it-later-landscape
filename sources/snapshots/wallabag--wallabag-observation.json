@@ -1,0 +1,58 @@
+{
+  "repository": "wallabag/wallabag",
+  "checked_at": "2026-11-21T21:14:48.607815+08:00",
+  "revision": "995ca0078f0dd0ad25af60c4ab39b40195e15f49",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/wallabag/wallabag.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n995ca0078f0dd0ad25af60c4ab39b40195e15f49\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/README.md",
+      "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/README.md",
+      "path": "sources/snapshots/wallabag--wallabag-readme.txt",
+      "sha256": "0dd89f0f2c9e197ae8ef1b5d9f650b3f11384eb951c1d9be38c724ffdc4df4f8",
+      "http_status": 200,
+      "line_count": 71,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+      "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+      "path": "sources/snapshots/wallabag--wallabag-license.txt",
+      "sha256": "9927812ed1d034e6b6ed0c71160b2bf33ececf980947806ddf73993013669496",
+      "http_status": 200,
+      "line_count": 19,
+      "upstream_filename": "COPYING.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+      "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+      "path": "sources/snapshots/wallabag--wallabag-COPYING.md.txt",
+      "sha256": "9927812ed1d034e6b6ed0c71160b2bf33ececf980947806ddf73993013669496",
+      "http_status": 200,
+      "line_count": 19,
+      "upstream_filename": "COPYING.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+      "final_url": "https://raw.githubusercontent.com/wallabag/wallabag/995ca0078f0dd0ad25af60c4ab39b40195e15f49/COPYING.md",
+      "path": "sources/snapshots/wallabag--wallabag-COPYING.md.txt",
+      "sha256": "9927812ed1d034e6b6ed0c71160b2bf33ececf980947806ddf73993013669496",
+      "http_status": 200,
+      "line_count": 19,
+      "upstream_filename": "COPYING.md"
+    }
+  ],
+  "failures": []
+}

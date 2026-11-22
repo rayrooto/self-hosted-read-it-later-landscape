@@ -1,0 +1,38 @@
+{
+  "repository": "go-shiori/shiori",
+  "checked_at": "2026-11-21T21:14:54.370421+08:00",
+  "revision": "aebb4021a56048eed4c8feb325399be5f46e5470",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/go-shiori/shiori.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\naebb4021a56048eed4c8feb325399be5f46e5470\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/README.md",
+      "final_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/README.md",
+      "path": "sources/snapshots/go-shiori--shiori-readme.txt",
+      "sha256": "f7e1e6524b1e4aba3cbe440fd16dc327ce0e48cf80268e6c671b304f53c835bc",
+      "http_status": 200,
+      "line_count": 42,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/go-shiori/shiori/aebb4021a56048eed4c8feb325399be5f46e5470/LICENSE",
+      "path": "sources/snapshots/go-shiori--shiori-license.txt",
+      "sha256": "710d74ed6b8c6ee1ebdbab7a0539c5412f2a487a1e6fcba9477f7cd7a272372f",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "linkwarden/linkwarden",
+  "checked_at": "2026-11-21T21:14:46.843650+08:00",
+  "revision": "24adcc146ba356632859a1e8adb4bffae2874d11",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/linkwarden/linkwarden.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n24adcc146ba356632859a1e8adb4bffae2874d11\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/README.md",
+      "final_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/README.md",
+      "path": "sources/snapshots/linkwarden--linkwarden-readme.txt",
+      "sha256": "2813dd16022b0e23f9f2f19cbf216be22b201cb9a089cd3d38184dc7a62c7939",
+      "http_status": 200,
+      "line_count": 152,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/linkwarden/linkwarden/24adcc146ba356632859a1e8adb4bffae2874d11/LICENSE.md",
+      "path": "sources/snapshots/linkwarden--linkwarden-license.txt",
+      "sha256": "db52e3daad9260a1cc638efaf3f6b7a6bdead236365586a60078a9a287613037",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "jonschoning/espial",
+  "checked_at": "2026-11-21T21:15:02.576756+08:00",
+  "revision": "27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/jonschoning/espial.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/README.md",
+      "final_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/README.md",
+      "path": "sources/snapshots/jonschoning--espial-readme.txt",
+      "sha256": "97eeef390e01fec72f3c38152d9d5a1e6d02d05ea340a109f59973dec4bedb6c",
+      "http_status": 200,
+      "line_count": 535,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/jonschoning/espial/27f1d4bcdc537c0182886f7fc22c1fcf0befa6e6/LICENSE",
+      "path": "sources/snapshots/jonschoning--espial-license.txt",
+      "sha256": "ad858d53cae05eed9531ecd4c467440803acffe34c69de7b88e03affc5b6a1bd",
+      "http_status": 200,
+      "line_count": 660,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

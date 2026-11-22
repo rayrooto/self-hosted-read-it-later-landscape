@@ -1,0 +1,38 @@
+{
+  "repository": "yourselfhosted/slash",
+  "checked_at": "2026-11-21T21:15:05.149366+08:00",
+  "revision": "e5a4508b797a5fbdd7c633146152b14a5aba9061",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/yourselfhosted/slash.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\ne5a4508b797a5fbdd7c633146152b14a5aba9061\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/README.md",
+      "final_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/README.md",
+      "path": "sources/snapshots/yourselfhosted--slash-readme.txt",
+      "sha256": "6f412bb856f815e1a52c873ebbc18dd9d0aadbee124eb1218fb94e7e302b792d",
+      "http_status": 200,
+      "line_count": 44,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/yourselfhosted/slash/e5a4508b797a5fbdd7c633146152b14a5aba9061/LICENSE",
+      "path": "sources/snapshots/yourselfhosted--slash-license.txt",
+      "sha256": "2560f5f46b095304902d10ab503949eedf900e9d51ace3867cf962fa967f2d79",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

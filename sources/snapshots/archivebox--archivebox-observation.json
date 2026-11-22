@@ -1,0 +1,38 @@
+{
+  "repository": "ArchiveBox/ArchiveBox",
+  "checked_at": "2026-11-21T21:14:57.253196+08:00",
+  "revision": "c76067d210a619dd1baa9a3f3c6f06f2a64d5a48",
+  "branch": "dev",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/ArchiveBox/ArchiveBox.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/dev\tHEAD\nc76067d210a619dd1baa9a3f3c6f06f2a64d5a48\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/README.md",
+      "final_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/README.md",
+      "path": "sources/snapshots/archivebox--archivebox-readme.txt",
+      "sha256": "14ec3c541cad1544672a058b9ea5d624c50ab3f94e99077e5b9b523d647ea52f",
+      "http_status": 200,
+      "line_count": 1568,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/c76067d210a619dd1baa9a3f3c6f06f2a64d5a48/LICENSE",
+      "path": "sources/snapshots/archivebox--archivebox-license.txt",
+      "sha256": "94e19d573d2a152c04409ba6995f8754ec212c56d0cf1796626445046bcbf92a",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

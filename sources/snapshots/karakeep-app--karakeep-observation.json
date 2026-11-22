@@ -1,0 +1,38 @@
+{
+  "repository": "karakeep-app/karakeep",
+  "checked_at": "2026-11-21T21:14:47.932493+08:00",
+  "revision": "337161a5f9ef9a3d40d6229aba353d625897bb6d",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/karakeep-app/karakeep.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n337161a5f9ef9a3d40d6229aba353d625897bb6d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/README.md",
+      "final_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/README.md",
+      "path": "sources/snapshots/karakeep-app--karakeep-readme.txt",
+      "sha256": "68e769d2d94115a9db7280cf99e61c753e7dd8f856a373d8e64c154da4d7778f",
+      "http_status": 200,
+      "line_count": 127,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/karakeep-app/karakeep/337161a5f9ef9a3d40d6229aba353d625897bb6d/LICENSE",
+      "path": "sources/snapshots/karakeep-app--karakeep-license.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "readeck/readeck",
+  "checked_at": "2026-11-21T21:14:48.765364+08:00",
+  "revision": "dd31edd071dcf5ca074dc197f3b0161cd262b890",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://codeberg.org/readeck/readeck.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\ndd31edd071dcf5ca074dc197f3b0161cd262b890\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/README.md",
+      "final_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/README.md",
+      "path": "sources/snapshots/readeck--readeck-readme.txt",
+      "sha256": "f2c561a8b7f0d445d5d22ac225934a7e0e18c524583231e34948bee5c02d0caf",
+      "http_status": 200,
+      "line_count": 194,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/LICENSE",
+      "final_url": "https://codeberg.org/readeck/readeck/raw/commit/dd31edd071dcf5ca074dc197f3b0161cd262b890/LICENSE",
+      "path": "sources/snapshots/readeck--readeck-license.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
