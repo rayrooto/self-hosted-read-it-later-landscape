@@ -1,8 +1,9 @@
 # Self-Hosted Read-It-Later Landscape
 
-> **Decision:** Choose the artifact to preserve—URL metadata, readable article, rendered snapshot, or multi-format evidence—before choosing an application.
 
-**For:** Researchers and knowledge workers who need durable capture instead of a browser bookmark pile.  
+> **Decision:** Use this landscape to decide whether to preserve URL metadata, readable text, rendered snapshots, or multi-format evidence; skip it if a browser bookmark is already durable enough for the task.
+>
+> **For:** researchers and knowledge workers building a durable reading and capture workflow  ·  **Not for:** users seeking only feed polling or a zero-maintenance hosted queue
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ A low-friction pattern is a browser/mobile capture client feeding a bookmark or 
 
 Human reading copies, bookmarks and preserved pages, not generic note-taking or agent memory.
 
+## Adjacent guides
+
+- [self-hosted-rss-reader-comparison](https://github.com/MargaritaOfficial/self-hosted-rss-reader-comparison) — Use it when the upstream problem is feed polling, filtering, user separation, and client access.
+- [open-source-document-workflow-index](https://github.com/mckee19/open-source-document-workflow-index) — Use it when captured pages become governed records that need OCR, retrieval, retention, or preservation.
+- [encrypted-backup-tool-selector](https://github.com/Anguianodd/encrypted-backup-tool-selector) — Use it when captures, databases, and reading state need a verified recovery path.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
