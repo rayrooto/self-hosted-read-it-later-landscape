@@ -1,6 +1,5 @@
 # Self-Hosted Read-It-Later Landscape
 
-
 > **Decision:** Use this landscape to decide whether to preserve URL metadata, readable text, rendered snapshots, or multi-format evidence; skip it if a browser bookmark is already durable enough for the task.
 >
 > **For:** researchers and knowledge workers building a durable reading and capture workflow  ·  **Not for:** users seeking only feed polling or a zero-maintenance hosted queue
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the capture catalogue](assets/capture-durability-map.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Reading queue with saved article text: compare wallabag and Readeck.
 - Bookmark catalogue with minimal state: compare linkding, Buku, and Shaarli.
@@ -24,12 +22,10 @@ A bookmark is not an offline article. An external archive submission is not a pr
 
 ## Durability ladder
 
-
 - **Readable article copies** — wallabag and Readeck turn pages into reading artifacts; test extraction failures and export, not only the reader UI.
 - **Bookmark catalogues** — linkding, Buku, Shaarli, Slash, and Shiori organize links; some optionally save content, but URL metadata remains a distinct durability level.
 - **Collections with preservation** — Linkwarden, Karakeep, LinkAce, and Espial add saved content or archive integrations with different multi-user and privacy assumptions.
 - **Web evidence archive** — ArchiveBox invokes several capture tools and stores multiple representations; its dependency and storage model should be treated as a preservation system.
-
 
 ## Capture catalogue
 
@@ -52,9 +48,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Assemble the minimal stack
 
-
 A low-friction pattern is a browser/mobile capture client feeding a bookmark or reading service, with selected high-value URLs exported to ArchiveBox. Avoid archiving every private page into a globally shared index. Before migration, export URLs and tags, then separately confirm whether saved article bodies, screenshots, and annotations leave the old system.
-
 
 ## Adoption notes by project
 
